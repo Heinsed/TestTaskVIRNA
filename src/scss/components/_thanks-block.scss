@@ -1,0 +1,94 @@
+.thanks-block {
+    background: url('../img/bg-effect.png') no-repeat;
+    background-position: 20%;
+    min-height: 800px;
+    @media screen and (max-width: 1500px) {
+        min-height: 660px;
+        background-position: -50%;
+    }
+    @media screen and (max-width: 1250px) {
+        min-height: 500px;
+        background-size: contain;
+        background-position: 10%;
+    }
+    @media screen and (max-width: 1000px) {
+        min-height: 500px;
+        background-size: contain;
+        background-position: 0%;
+    }
+    @media screen and (max-width: 850px) {
+        min-height: 415px;
+        background-size: contain;
+        background-position: 0%;
+    }
+    @media screen and (max-width: 720px) {
+        background-position: -20%;
+    }
+    @media screen and (max-width: 640px) {
+        background-position: -40%;
+    }
+    @media screen and (max-width: 600px) {
+        background-position: -50%;
+        min-height: 380px;
+    }
+    @media screen and (max-width: 540px) {
+        background-position: -80%;
+        min-height: 380px;
+    }
+    @media screen and (max-width: 500px) {
+        background-position: -100%;
+        min-height: 300px;
+        padding-top: 50px;
+        position: relative;
+    }
+    @media screen and (max-width: 440px) {
+        min-height: 250px;
+        background-position: -50%;
+        background-size: 60%;
+    }
+    @media screen and (max-width: 360px) {
+        background-position: -70%;
+    }
+    .wrapper {
+        display: flex;
+        min-height: 800px;
+        @media screen and (max-width: 1500px) {
+            min-height: 660px;
+        }
+        @media screen and (max-width: 1250px) {
+            min-height: 500px;
+        }
+        @media screen and (max-width: 850px) {
+            min-height: 415px;
+        }
+        @media screen and (max-width: 600px) {
+            min-height: 380px;
+        }
+        @media screen and (max-width: 500px) {
+            min-height: 300px;
+        }
+        @media screen and (max-width: 440px) {
+            min-height: 250px;
+        }
+    }
+    .studio-logo {
+        position: absolute;
+        @media screen and (max-width: 500px) {
+            top: 0;
+        }
+    }
+    .text-container {
+        margin: auto 0;
+        margin-left: 50%;
+        display: block;
+        @media screen and (max-width: 850px) {
+            margin-left: calc(50% + 15px);
+        }
+        @media screen and (max-width: 440px) {
+            margin-left: 35%;
+        }
+        @media screen and (max-width: 360px) {
+            margin-left: 25%;
+        }
+    }
+}

@@ -1,0 +1,197 @@
+    @import 'vars';
+    @import 'normalize';
+    @import "../fonts/font/stylesheet.css";
+    @import '../fonts/stylesheet.css';
+    @import 'header';
+    @import 'components/main-block';
+    @import 'components/colors-block';
+    @import 'components/thanks-block';
+    @import 'animate';
+    .wow {
+        visibility: hidden;
+    }
+    
+    // 
+    // 
+    // 
+    // TYPOGRAPHY START
+    // 
+    // 
+    // 
+    .rotated {
+        &.left {
+            position: relative;
+            max-width: 130px;
+            text-align: right;
+            transform: rotate(270deg);
+            transform-origin: top left;
+            margin-top: 160px;
+        }
+    }
+    
+    h1 {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 100%;
+        letter-spacing: 0.02em;
+        color: $main-font-color;
+        @media screen and (max-width: 1250px) {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: 0.02em;
+        }
+        @media screen and (max-width: 850px) {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 42px;
+            line-height: 42px;
+            letter-spacing: 0.02em;
+        }
+    }
+    
+    h2 {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        color: $main-font-color;
+        line-height: 70px;
+        @media screen and (max-width: 1250px) {
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 45px;
+        }
+        @media screen and (max-width: 850px) {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+    
+    h3 {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 38px;
+        color: $main-font-color;
+        letter-spacing: 0.03em;
+        @media screen and (max-width: 1250px) {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 30px;
+            letter-spacing: 0.03em;
+        }
+        @media screen and (max-width: 850px) {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 28px;
+            letter-spacing: 0.03em;
+        }
+    }
+    
+    h4 {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: $main-font-color;
+        strong {
+            font-weight: 500;
+        }
+        @media screen and (max-width: 850px) {
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.03em;
+        }
+    }
+    
+    h5 {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        color: $main-font-color;
+        @media screen and (max-width: 850px) {
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 18px;
+        }
+        @media screen and (max-width: 640px) {}
+    }
+    
+    h6 {
+        font-family: 'Cera Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: $main-font-color;
+        @media screen and (max-width: 850px) {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            letter-spacing: 0.04em;
+        }
+        @media screen and (max-width: 640px) {}
+    }
+    
+    p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        strong {
+            font-weight: 500;
+        }
+        @media screen and (max-width: 850px) {
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+    
+    // 
+    // 
+    // 
+    // TYPOGRAPHY END
+    // 
+    // 
+    //
+    .wrapper {
+        max-width: 1410px;
+        margin: 0 auto;
+        @media screen and (max-width: 1500px) {
+            max-width: 1166px;
+        }
+        @media screen and (max-width: 1250px) {
+            max-width: 770px;
+        }
+        @media screen and (max-width: 850px) {
+            max-width: 690px;
+        }
+        @media screen and (max-width: 720px) {
+            margin: 0 3%;
+        }
+    }
+    
+    section {
+        margin-bottom: 100px;
+        @media screen and (max-width: 1250px) {
+            margin-bottom: 70px;
+        }
+        @media screen and (max-width: 850px) {
+            margin-bottom: 50px;
+        }
+    }
+    
+    main {
+        width: 100vw;
+        overflow: hidden;
+    }

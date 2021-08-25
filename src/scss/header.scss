@@ -1,0 +1,39 @@
+header {
+    position: absolute;
+    width: 100%;
+    .top-bar {
+        z-index: 1;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        @media screen and (max-width: 1250px) {
+            padding-top: 30px;
+        }
+        @media screen and (max-width: 640px) {
+            justify-content: flex-end;
+        }
+        .studio-logo {
+            max-width: 65px;
+            img {
+                width: 100%;
+            }
+            @media screen and (max-width: 1250px) {
+                max-width: 60px;
+            }
+        }
+        .main-logo {
+            max-width: 120px;
+            position: relative;
+            @media screen and (max-width: 640px) {
+                display: none;
+            }
+            img {
+                width: 100%;
+            }
+            @media screen and (max-width: 1250px) {
+                max-width: 100px;
+            }
+        }
+    }
+}
